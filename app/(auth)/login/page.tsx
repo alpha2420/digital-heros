@@ -25,7 +25,7 @@ export default async function LoginPage({ searchParams }: { searchParams: Promis
           <div className="space-y-2">
             <div className="flex items-center justify-between">
               <label className="text-sm font-medium text-gray-400">Password</label>
-              <Link href="/forgot-password" size="sm" className="text-sm text-primary hover:underline">
+              <Link href="/forgot-password" className="text-sm text-primary hover:underline">
                 Forgot?
               </Link>
             </div>
